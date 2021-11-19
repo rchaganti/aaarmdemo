@@ -1,0 +1,55 @@
+{
+ "properties": {
+  "policyType": "Custom",
+  "description": "[Dell EMC] BIOS Configuration Compliance Checks",
+  "metadata": {
+   "version": "1.0.0",
+   "category": "BIOS",
+   "createdBy": "bb4e8204-e2d6-4240-8b25-f58ebf1410cd",
+   "createdOn": "2021-10-21T11:38:52.6995214Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "4219943545256073542",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-VirtualizationTechnology"
+   },
+   {
+    "policyDefinitionReferenceId": "3653499946619735076",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-X2APICMode"
+   },
+   {
+    "policyDefinitionReferenceId": "10739595824620568992",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-DellControlledTurbo"
+   },
+   {
+    "policyDefinitionReferenceId": "10169406868216328705",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-SystemProfile"
+   },
+   {
+    "policyDefinitionReferenceId": "2048971994772671836",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-SR-IOVGlobalEnable"
+   },
+   {
+    "policyDefinitionReferenceId": "9439088697997679353",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-TPMSecurity"
+   },
+   {
+    "policyDefinitionReferenceId": "13647896130209918530",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-ACPowerRecovery"
+   },
+   {
+    "policyDefinitionReferenceId": "11034724072331128543",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-ACPowerRecoveryDelay"
+   },
+   {
+    "policyDefinitionReferenceId": "13840395343052245134",
+    "policyDefinitionId": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policyDefinitions/DellEMC-BIOS-SecureBoot"
+   }
+  ]
+ },
+ "id": "/subscriptions/0d39bfe8-a1ab-4564-85c5-9db64bd97424/providers/Microsoft.Authorization/policySetDefinitions/[Dell EMC] BIOS Configuration Compliance Checks",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "[Dell EMC] BIOS Configuration Compliance Checks"
+}
